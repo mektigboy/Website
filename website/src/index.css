@@ -1,6 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --background-color: #101010;
+  --color-black: #101010;
+  --color-green: #00ff00;
+}
+
 @font-face {
   font-family: "Share Tech Mono";
-  src: url("../../fonts/ShareTechMono-Regular.ttf");
+  src: url("./fonts/ShareTechMono-Regular.ttf");
 }
 
 body {
