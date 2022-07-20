@@ -18,6 +18,14 @@
   src: url("./fonts/ShareTechMono-Regular.ttf");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+::webkit-scrollbar {
+  display: none;
+}
+
 body {
   background-color: #101010;
   color: #00ff00;
