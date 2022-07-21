@@ -38,16 +38,22 @@ body {
 
 /* ========== GENERAL STYLES ========== */
 
+section {
+  margin-top: 10rem;
+}
+
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
 }
 
-/* ========== MEDIA QUERIES (LARGE DEVICES)  ========== */
-
 /* ========== MEDIA QUERIES (MEDIUM DEVICES)  ========== */
 
 @media screen and (max-width: 1024px) {
+  section {
+    margin-top: 0;
+  }
+
   .container {
     width: var(--container-width-md);
   }
