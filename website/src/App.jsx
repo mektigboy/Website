@@ -1,6 +1,5 @@
 import React from "react";
-import "./App.css";
-import Loader from "./Loader/Loader";
+import Loader from "./components/loader/Loader";
 
 class App extends React.Component {
   componentDidMount() {}
