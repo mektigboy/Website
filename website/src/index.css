@@ -28,6 +28,7 @@ html {
 
 body {
   font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
   background: var(--color-black);
   color: var(--color-green);
 }
@@ -38,10 +39,6 @@ body {
 
 /* ========== GENERAL STYLES ========== */
 
-section {
-  margin-top: 10rem;
-}
-
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -50,10 +47,6 @@ section {
 /* ========== MEDIA QUERIES (MEDIUM DEVICES)  ========== */
 
 @media screen and (max-width: 1024px) {
-  section {
-    margin-top: 0;
-  }
-
   .container {
     width: var(--container-width-md);
   }
