@@ -5,7 +5,7 @@ const Loader = () => {
   return (
     <section id="loader" className="loader">
       <div className="loader-box">
-        <p>Loading...</p>
+        <div className="counter">0</div>
       </div>
     </section>
   );
