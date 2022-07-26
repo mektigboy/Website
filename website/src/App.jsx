@@ -1,12 +1,9 @@
 import React from "react";
 import Loader from "./components/loader/Loader";
+import Home from "/components/home/Home";
 
-class App extends React.Component {
-  componentDidMount() {}
-
-  render() {
-    return <Loader />;
-  }
-}
+const App = () => {
+  return <Home />;
+};
 
 export default App;
