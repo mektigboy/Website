@@ -1,11 +1,13 @@
 import React from "react";
 import "./home.css";
+import Left from "./Left";
+import Right from "./Right";
 
 const Home = () => {
   return (
     <section id="home" className="home">
-      <div className="left"></div>
-      <div className="right"></div>
+      <Left />
+      <Right />
     </section>
   );
 };
