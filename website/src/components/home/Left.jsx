@@ -1,5 +1,7 @@
 import React from "react";
 
-const Left = () => {};
+const Left = () => {
+  return <div className="left"></div>;
+};
 
 export default Left;
