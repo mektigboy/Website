@@ -33,6 +33,10 @@ body {
   color: var(--color-green);
 }
 
+a {
+  color: var(--color-green);
+}
+
 ::webkit-scrollbar {
   display: none;
 }
@@ -42,6 +46,10 @@ body {
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES)  ========== */
